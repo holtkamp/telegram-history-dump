@@ -26,7 +26,7 @@ in JSON format, without downloading any media.
 ### Performing a backup
 
 1. Start telegram-cli with at least the following options:
-   `telegram-cli --json -P 9009`
+   `telegram --json -P 9009`
 2. While telegram-cli is running, execute the script:
    `ruby telegram-history-dump.rb`
 
